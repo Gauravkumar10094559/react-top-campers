@@ -1,0 +1,65 @@
+body{
+	font-family: monospace;
+}
+h1{
+	background: tomato;
+	margin: 0;
+	padding: 15px;
+	color: lightyellow;
+	font-size: 55px;
+}
+h2{
+	text-align: center;
+}
+center{
+	font-size: 40px;
+	background: orange;
+}
+button{
+	background: transparent;
+	border: none;
+	font-family: monospace;
+	font-weight: bold;
+}
+img{
+	width: 30px;
+	margin:10px auto -4px auto;
+	border-radius: 5px;
+}
+table{
+	display: table-header-group;
+	background: orange;
+	width: 100vw;
+}
+thead{
+	margin: 20px;
+	background: yellow;
+	font-size: 15px;
+}
+thead > tr > th{
+	width: 100vw;
+}
+
+tbody{
+	margin: 10px;
+	background: transparent;
+	text-align: center;
+}
+tbody > tr > td{
+	width: 100vw;
+	border-bottom: 1px solid yellow;
+}
+thead > tr > th:first-child{
+	width: 20%;
+	height: 100px;
+}
+tbody > tr > td:first-child{
+	width: 20%;
+}
+thead > tr > th:nth-child(2){
+	width: 40%;
+	height: 100px;
+}
+tbody > tr > td:nth-child(2){
+	width: 40%;
+}
